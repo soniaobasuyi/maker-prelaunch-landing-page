@@ -1,0 +1,146 @@
+body {
+    background-color: #080C20;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    font-family: Manrope;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+}
+
+p {
+    color: #777F98;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 25px; /* 166.667% */
+}
+
+span {
+    color: #3EE9E5;
+}
+
+.nav-section {
+    padding: 3rem 0 3rem 7rem;
+}
+
+.top-section {
+    margin: 6rem 0;
+}
+
+.description-top-section {
+    position: relative;
+    text-align: center;
+    font-family: Manrope;
+    width: 27rem;
+    height: 20rem;
+    margin: auto;
+}
+
+.left-illustration {
+    position: absolute;
+    top: 11.5rem;
+    left: -2.8rem;
+}
+
+.right-illustration {
+    position: absolute;
+    right: -3.2rem;
+    top: 12rem;
+}
+
+.top-zigzag {
+    position: absolute;
+    right: 22rem;
+    top: 10rem;
+}
+
+.scroll-icon {
+    position: absolute;
+    left: 13rem;
+    bottom: 3.5rem;
+}
+
+#features {
+    width: 60rem;
+    height: 20rem;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 4rem;
+}
+
+.feature-contents {
+    text-align: left;
+    margin: 0 1.5rem;
+}
+
+.feature-images {
+    background-color: #093F68;
+    padding: 1rem;
+    border-radius: 25%;
+}
+
+.financial-freedom {
+    margin-top: 3rem;
+}
+
+.work-anywhere {
+    margin-top: 3rem;
+}
+
+.pricing-heading {
+    text-align: center;
+    margin: auto;
+    width: 26rem;
+    padding: 0 4rem 4rem;
+}
+
+#pricing-plans {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin: 0 10rem;
+}
+
+.plan-details {
+    padding: 3rem;
+    margin: 1rem;
+}
+
+.free {
+    background-color: #093F68;
+    color: #FFFFFF;
+}
+
+.free p {
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.free h3 h2 {
+    font-weight: 800;
+    font-style: bold;
+}
+
+.paid {
+    background-color: #3EE9E5;
+    color: #080C20;
+}
+
+.paid p {
+    color: #080C20;
+}
+
+.per-month {
+    color: #080C20;
+    font-family: Manrope;
+    font-style: normal;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 25px;
+    
+}
