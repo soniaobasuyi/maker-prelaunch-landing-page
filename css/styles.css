@@ -11,7 +11,7 @@ h1 {
     line-height: 56px; /* 116.667% */
 }
 
-p {
+.paragragh {
     color: #777F98;
     font-size: 0.75rem;
     font-weight: 500;
@@ -100,25 +100,58 @@ span {
 }
 
 #pricing-plans {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: left;
     margin: 0 10rem;
 }
 
+#pricing-plans h4 {
+    font-weight: 800;
+}
+
+#pricing-plans p {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 25px;
+    font-style: normal;
+}
+
+.icon-paid {
+    position: absolute;
+    top: -1.5rem;
+}
+
+.icon-free {
+    position: absolute;
+    top: -1.2rem;
+}
+
 .plan-details {
-    padding: 3rem;
+    padding: 2rem;
     margin: 1rem;
+    border-radius: 0.5rem;
 }
 
 .free {
     background-color: #093F68;
-    color: #FFFFFF;
+    width: 19rem;
+    position: relative;
 }
 
 .free p {
     color: #FFFFFF;
-    font-style: normal;
+    opacity: 0.6;
+}
+
+.free-details p {
+    opacity: 1;
+    margin: 0.5rem 1.5rem;
+}
+
+.check-free {
+    position: absolute;
 }
 
 .free h3 h2 {
@@ -126,21 +159,95 @@ span {
     font-style: bold;
 }
 
+
 .paid {
     background-color: #3EE9E5;
     color: #080C20;
+    height: 80%;
+    width: 19rem;
+    position: absolute;
+    right: 0;
+    top: -0.5rem;
 }
 
 .paid p {
     color: #080C20;
+    opacity: 0.6;
 }
+
+.paid h2 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.paid-details p {
+    opacity: 1;
+    margin: 0.5rem 1.5rem;
+}
+
 
 .per-month {
     color: #080C20;
-    font-family: Manrope;
-    font-style: normal;
     font-size: 0.75rem;
     font-weight: 500;
     line-height: 25px;
+    opacity: 0.6;
+    position: absolute;
+    top: 11rem;
+    margin-left: 0.3rem;
     
+}
+
+.check-paid {
+    position: absolute;
+}
+
+.bottom-section {
+    margin: 5rem 0 12rem;
+}
+
+.bottom-zigzag {
+    position: absolute;
+    left: -10rem;
+}
+
+.bottom-section h2 {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 3rem;
+}
+
+.subscribe {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+}
+
+button {
+    border-radius: 2rem;
+    background-color: #3EE9E5;
+    border: 0;
+    padding: 0.7rem;
+    color: #093F68;
+    font-weight: 800;
+    font-family: Manrope;
+} 
+
+input {
+    border: 0;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    font-weight: 800;
+    background-color: #093F68;
+    margin-right: 0.5rem;
+    width: 13rem;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 0.4;
+    font-family: Manrope;
 }
